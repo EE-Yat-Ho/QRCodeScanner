@@ -11,6 +11,9 @@
 		7A73F5FD2BF1E1310046D392 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A73F5FC2BF1E1310046D392 /* ContentView.swift */; };
 		7A73F5FF2BF1E1320046D392 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A73F5FE2BF1E1320046D392 /* Assets.xcassets */; };
 		7A73F6022BF1E1320046D392 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A73F6012BF1E1320046D392 /* Preview Assets.xcassets */; };
+		7A73F6092BF1E19E0046D392 /* QRCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A73F6082BF1E19E0046D392 /* QRCameraView.swift */; };
+		7A73F60B2BF1E1B70046D392 /* QRCameraRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A73F60A2BF1E1B70046D392 /* QRCameraRepresentable.swift */; };
+		7A73F60D2BF1E1EC0046D392 /* QRCameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A73F60C2BF1E1EC0046D392 /* QRCameraController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		7A73F5FC2BF1E1310046D392 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7A73F5FE2BF1E1320046D392 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A73F6012BF1E1320046D392 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7A73F6082BF1E19E0046D392 /* QRCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCameraView.swift; sourceTree = "<group>"; };
+		7A73F60A2BF1E1B70046D392 /* QRCameraRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCameraRepresentable.swift; sourceTree = "<group>"; };
+		7A73F60C2BF1E1EC0046D392 /* QRCameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCameraController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				7A73F5FA2BF1E1310046D392 /* QRCodeScannerApp.swift */,
 				7A73F5FC2BF1E1310046D392 /* ContentView.swift */,
+				7A73F6082BF1E19E0046D392 /* QRCameraView.swift */,
+				7A73F60A2BF1E1B70046D392 /* QRCameraRepresentable.swift */,
+				7A73F60C2BF1E1EC0046D392 /* QRCameraController.swift */,
 				7A73F5FE2BF1E1320046D392 /* Assets.xcassets */,
 				7A73F6002BF1E1320046D392 /* Preview Content */,
 			);
@@ -138,7 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A73F5FD2BF1E1310046D392 /* ContentView.swift in Sources */,
+				7A73F60D2BF1E1EC0046D392 /* QRCameraController.swift in Sources */,
 				7A73F5FB2BF1E1310046D392 /* QRCodeScannerApp.swift in Sources */,
+				7A73F60B2BF1E1B70046D392 /* QRCameraRepresentable.swift in Sources */,
+				7A73F6092BF1E19E0046D392 /* QRCameraView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +287,7 @@
 				DEVELOPMENT_TEAM = C7C374L68A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "QR좀 찍자";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +317,7 @@
 				DEVELOPMENT_TEAM = C7C374L68A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "QR좀 찍자";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
